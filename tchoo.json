@@ -1,0 +1,33 @@
+{
+  "name": "11ty-site-template",
+  "version": "0.1.0",
+  "description": "Modèle de site statique Eleventy (11ty) destiné au développement.",
+  "projectType": "frontend",
+  "team": [
+    "Frédéric Lasnier (Lead dev)"
+  ],
+  "dates": {
+    "start": "2021-05-24",
+    "milestones": []
+  },
+  "stack": {
+    "generator": "eleventy",
+    "language": "javascript"
+  },
+  "methodologies": [],
+  "paths": {
+    "docs": "${TCHOO_VAULT_PATH}/10-project/11ty-site-template/docs"
+  },
+  "integrations": {
+    "obsidian": {
+      "vault": "${TCHOO_VAULT_PATH}",
+      "project": "10-project/11ty-site-template",
+      "index": "10-project/11ty-site-template/index.md"
+    }
+  },
+  "docRules": {
+    "format": "markdown",
+    "language": "fr",
+    "outputDir": "${TCHOO_VAULT_PATH}/10-project/11ty-site-template/docs"
+  }
+}
