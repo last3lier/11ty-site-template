@@ -16,18 +16,20 @@
   },
   "methodologies": [],
   "paths": {
-    "docs": "${TCHOO_VAULT_PATH}/10-project/11ty-site-template/docs"
+    "docs": "${TCHOO_VAULT_PATH}/10-project/Produits/Web-Apps/11ty-site-template/docs"
   },
   "integrations": {
     "obsidian": {
       "vault": "${TCHOO_VAULT_PATH}",
-      "project": "10-project/11ty-site-template",
-      "index": "10-project/11ty-site-template/index.md"
+      "project": "10-project/Produits/Web-Apps/11ty-site-template",
+      "index": "10-project/Produits/Web-Apps/11ty-site-template/index.md",
+      "category": "Produits",
+      "family": "Web-Apps"
     }
   },
   "docRules": {
     "format": "markdown",
     "language": "fr",
-    "outputDir": "${TCHOO_VAULT_PATH}/10-project/11ty-site-template/docs"
+    "outputDir": "${TCHOO_VAULT_PATH}/10-project/Produits/Web-Apps/11ty-site-template/docs"
   }
 }
